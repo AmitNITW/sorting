@@ -1,19 +1,5 @@
-package com.example.code;
-
-import java.util.Arrays;
 
 public class SelectionSort {
-	public static void main(String[] args) {
-		int[] arr = { 12, 34, 70, 6, 4, 127, 3 };
-		// char[] arr = { 'c', 'p', 'm', 'f', 'n', 'q' };
-		sortUsingRecursion(arr, true);
-
-		for (int i : arr) {
-			System.out.println(i + " ");
-		}
-
-	}
-
 	/*
 	 * Recursion start
 	 */
