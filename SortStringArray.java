@@ -1,11 +1,9 @@
 public class SortStringArray {
-	
 	/*
 	 * Input : { "paper", "true", "soap", "floppy", "flower" }
 	 * 
 	 *  Ouput : { "floppy", "flower", "paper", "soap", "true" }
 	 */
-	
 	public static void sortStringUsingSelection(String[] str) {
 		for (int i = 0; i < str.length - 1; i++) {
 			int index = i;
