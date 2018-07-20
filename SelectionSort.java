@@ -59,7 +59,7 @@ public class SelectionSort {
 	 */
 
 	/*
-	 * byte start
+	 * byte start 
 	 */
 	public static void sort(byte[] arr) {
 		sort(arr, 0, arr.length, false);
